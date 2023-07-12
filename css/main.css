@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  background: rgb(0,13,152);
+  background: linear-gradient(164deg, rgba(0,13,152,1) 0%, rgba(172,0,201,0.9725140056022409) 100%);
+  display: flex;
+  padding:  100px;
+  justify-content: center;
+}
+
+.container{
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 30px;
+  color: rgb(0, 4, 83);
+  background-color: white;
+  min-height: 200px;
+  width: 400px;
+  display: inline-block;
+}
+
+.container h1{
+  margin-bottom: 20px;
+}
+
+.input-box{
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(225, 225, 225);
+  border-radius: 50px;
+}
+
+#task{
+  margin: 10px 10px 10px 20px;
+  width: 70%;
+  height: 30px;
+  background-color: rgb(225, 225, 225);
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+#task:focus{
+  border: none;
+  outline: none;
+}
+
+#add{
+  background-color: orange;
+  color: white;
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  padding: 0 20px;
+}
+
+#add:hover{
+  opacity: 0.6;
+}
+
+#works{
+  background-color: white;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.work{
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+  padding: 15px 30px 15px 20px;
+  font-size: 20px;
+  user-select: none;
+}
+
+.work:hover{
+  background-color: rgb(238, 238, 238);
+}
